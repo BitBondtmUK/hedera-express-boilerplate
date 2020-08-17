@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "hash-sdk": "^2.0.2"
+    "hash-sdk": "^2.1.9"
   },
   "engines": {
     "node": "12.x"
