@@ -17,15 +17,15 @@ const hash = require("hash-sdk");
       // Setting it default to software it talks to sdk directly
       await hash.setProvider("software");
       const accountData = {
-        accountId: process.env.ACCOUNT_ID /*<accountId(0.0.1234)>*/,
+        accountId:"0.0.113349",
         network: "testnet" /*<mainnet | testnet>*/,
         keys: {
-          privateKey: process.env.PRIV_KEY /*<aplphanumeric user privatekey>*/
+          privateKey:"302e020100300506032b657004220420cf25ca2e36fad4db26af09ac12f1786a7d7810c589e700931404d9b8843a1a24"
         }
       };
       await hash.setAccount(accountData);
     } catch (e) {
-      console.log("Error in intializing account:::", e);
+      console.log("Error in intializing WATCH HERE account:::", e);
       throw e;
     }
   };
